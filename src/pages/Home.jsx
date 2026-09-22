@@ -171,7 +171,7 @@ const Home = () => {
             <article className={`pkg-card reveal ${openPkg === 'hd' ? 'open' : ''}`} style={{ '--i': 0 }}>
               <p className="pkg-tag">Most Booked</p>
               <h3>HD Makeup</h3>
-              <div className="pkg-price">₹9,000<sup>/ session</sup></div>
+              <div className="pkg-price">₹18,000<sup>/ session</sup></div>
               <ul className="pkg-list">
                 <li>HD makeup application</li>
                 <li>Hairdo based on client preference</li>
@@ -189,7 +189,7 @@ const Home = () => {
             <article className={`pkg-card featured reveal ${openPkg === 'glossy' ? 'open' : ''}`} style={{ '--i': 1 }}>
               <p className="pkg-tag">Reception Favourite</p>
               <h3>Glossy Makeup</h3>
-              <div className="pkg-price">₹12,000<sup>/ session</sup></div>
+              <div className="pkg-price">₹22,000<sup>/ session</sup></div>
               <ul className="pkg-list">
                 <li>Glossy, radiant makeup finish</li>
                 <li>Premium hairdo</li>
@@ -207,7 +207,7 @@ const Home = () => {
             <article className={`pkg-card reveal ${openPkg === 'airbrush' ? 'open' : ''}`} style={{ '--i': 2 }}>
               <p className="pkg-tag">Camera Ready</p>
               <h3>Airbrush Makeup</h3>
-              <div className="pkg-price">₹15,000<sup>/ session</sup></div>
+              <div className="pkg-price">₹25,000<sup>/ session</sup></div>
               <ul className="pkg-list">
                 <li>Flawless, lightweight, pore-covering finish</li>
                 <li>Lasts 10–16 hours</li>

@@ -421,21 +421,31 @@ footer ul a{ transition:color .2s ease, padding-left .2s ease; }
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width:980px){
+  :root{ --nav-h:128px; }
   .hero-grid, .about-grid, .book-grid{ grid-template-columns:1fr; }
   .hero-visual{ margin:48px auto 0; max-width:320px; }
   .pkg-grid, .review-grid{ grid-template-columns:1fr; }
   .gallery-grid{ grid-template-columns:repeat(2,1fr); }
   .foot-grid{ grid-template-columns:1fr 1fr; }
-  nav.links{ display:none; }
-  .burger{ display:flex; }
+  /* Keep the site navigation visible on phones instead of collapsing it behind a menu. */
+  .navbar{ flex-wrap:wrap; align-content:start; padding:0 20px; }
+  .brand, .nav-right{ height:76px; }
+  nav.links{
+    display:flex; order:3; width:100%; height:52px; justify-content:space-between;
+    gap:0; overflow:hidden;
+  }
+  nav.links a{ height:52px; padding:0 7px; font-size:10px; letter-spacing:.7px; white-space:nowrap; }
+  nav.links a::after{ left:7px; right:7px; bottom:6px; }
+  .nav-right{ gap:0; }
+  .nav-cta{ padding:11px 17px; font-size:10.5px; letter-spacing:1.1px; }
+  .nav-cta svg{ width:12px; height:12px; }
+  .burger, .mobile-menu{ display:none; }
   .field-row{ grid-template-columns:1fr; }
   .process{ grid-template-columns:1fr 1fr; gap:32px 0; }
   .process::before{ display:none; }
 }
 @media (max-width:640px){
-  :root{ --nav-h:80px; }
   .wrap{ padding:0 20px; }
-  .navbar{ padding:0 20px; }
   section{ padding:70px 0; }
   .hero{ padding:50px 0 60px; }
   .process{ grid-template-columns:1fr; }

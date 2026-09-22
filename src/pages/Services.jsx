@@ -42,7 +42,7 @@ const Services = () => {
             <article className={`pkg-card reveal ${openPkg === 'hd' ? 'open' : ''}`} style={{ '--i': 0 }}>
               <p className="pkg-tag">Most Booked</p>
               <h3>HD Makeup</h3>
-              <div className="pkg-price">₹9,000<sup>/ session</sup></div>
+              <div className="pkg-price">₹18,000<sup>/ session</sup></div>
               <ul className="pkg-list">
                 <li>HD makeup application</li>
                 <li>Hairdo based on client preference</li>
@@ -60,7 +60,7 @@ const Services = () => {
             <article className={`pkg-card featured reveal ${openPkg === 'glossy' ? 'open' : ''}`} style={{ '--i': 1 }}>
               <p className="pkg-tag">Reception Favourite</p>
               <h3>Glossy Makeup</h3>
-              <div className="pkg-price">₹12,000<sup>/ session</sup></div>
+              <div className="pkg-price">₹22,000<sup>/ session</sup></div>
               <ul className="pkg-list">
                 <li>Glossy, radiant makeup finish</li>
                 <li>Premium hairdo</li>
@@ -79,7 +79,7 @@ const Services = () => {
             <article className={`pkg-card reveal ${openPkg === 'airbrush' ? 'open' : ''}`} style={{ '--i': 2 }}>
               <p className="pkg-tag">Camera Ready</p>
               <h3>Airbrush Makeup</h3>
-              <div className="pkg-price">₹15,000<sup>/ session</sup></div>
+              <div className="pkg-price">₹25,000<sup>/ session</sup></div>
               <ul className="pkg-list">
                 <li>Flawless, lightweight, pore-covering finish</li>
                 <li>Lasts 10–16 hours</li>
@@ -116,7 +116,7 @@ const Services = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr style={{ borderBottom: '1px solid var(--line)' }}><td style={{ padding: '12px 10px', color: '#6b574c' }}>Price</td><td style={{ padding: '12px 10px' }}>₹9,000</td><td style={{ padding: '12px 10px' }}>₹12,000</td><td style={{ padding: '12px 10px' }}>₹15,000</td></tr>
+                <tr style={{ borderBottom: '1px solid var(--line)' }}><td style={{ padding: '12px 10px', color: '#6b574c' }}>Price</td><td style={{ padding: '12px 10px' }}>₹18,000</td><td style={{ padding: '12px 10px' }}>₹22,000</td><td style={{ padding: '12px 10px' }}>₹25,000</td></tr>
                 <tr style={{ borderBottom: '1px solid var(--line)' }}><td style={{ padding: '12px 10px', color: '#6b574c' }}>Wear time</td><td style={{ padding: '12px 10px' }}>Standard day wear</td><td style={{ padding: '12px 10px' }}>8–10 hours, sweat-resistant</td><td style={{ padding: '12px 10px' }}>10–16 hours</td></tr>
                 <tr style={{ borderBottom: '1px solid var(--line)' }}><td style={{ padding: '12px 10px', color: '#6b574c' }}>Saree draping</td><td style={{ padding: '12px 10px' }}>×1</td><td style={{ padding: '12px 10px' }}>×2</td><td style={{ padding: '12px 10px' }}>×2</td></tr>
                 <tr style={{ borderBottom: '1px solid var(--line)' }}><td style={{ padding: '12px 10px', color: '#6b574c' }}>Hairdo</td><td style={{ padding: '12px 10px' }}>Client preference</td><td style={{ padding: '12px 10px' }}>Premium hairdo</td><td style={{ padding: '12px 10px' }}>Premium + extension</td></tr>

@@ -93,9 +93,9 @@ const Contact = () => {
               <div className="field">
                 <label htmlFor="fpkg">Package</label>
                 <select id="fpkg" name="fpkg">
-                  <option value="HD Makeup">HD Makeup — ₹9,000</option>
-                  <option value="Glossy Makeup">Glossy Makeup — ₹12,000</option>
-                  <option value="Airbrush Makeup">Airbrush Makeup — ₹15,000</option>
+                  <option value="HD Makeup">HD Makeup — ₹18,000</option>
+                  <option value="Glossy Makeup">Glossy Makeup — ₹22,000</option>
+                  <option value="Airbrush Makeup">Airbrush Makeup — ₹25,000</option>
                   <option value="Not sure yet">Not sure yet — please advise</option>
                 </select>
               </div>
